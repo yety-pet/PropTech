@@ -1,10 +1,10 @@
-const express = require('express');
+const express = require ('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const userRoutes = require('./routes/userRoutes');
 const propertyRoutes = require('./routes/propertyRoutes');
-const cron = require('../DSPM 2/cron/leaseAlert');
+const cron = require('../cron/leaseAlert');
 
 dotenv.config();
 
